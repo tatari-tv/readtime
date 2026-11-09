@@ -5,7 +5,7 @@ use std::path::PathBuf;
 #[command(
     name = "readtime",
     about = "Estimate reading time for text documents",
-    version = env!("GIT_DESCRIBE"),
+    version = env!("BUILD_VERSION"),
     after_help = "Logs are written to: ~/.local/share/readtime/logs/readtime.log"
 )]
 pub struct Cli {
